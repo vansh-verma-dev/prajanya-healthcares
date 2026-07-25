@@ -30,7 +30,7 @@ const reviewsData = [
   },
   {
     id: 2,
-    name: "Priya Verma",
+    name: "Himanshu Verma",
     rating: 4,
     date: "1 month ago",
     verified: true,
