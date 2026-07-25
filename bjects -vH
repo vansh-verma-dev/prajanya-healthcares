@@ -1,0 +1,19 @@
+ src/Components/Riview.jsx |   4 [32m+[m[31m-[m
+ src/Data/data.js          | 309 [32m+++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ src/assets/hair-1.png     | Bin [31m0[m -> [32m1365828[m bytes
+ src/assets/hair-2.png     | Bin [31m0[m -> [32m1886644[m bytes
+ src/assets/hair-3.jpg     | Bin [31m0[m -> [32m156060[m bytes
+ src/assets/hero.png       | Bin [31m13057[m -> [32m0[m bytes
+ src/assets/photo1.PNG     | Bin [31m68468[m -> [32m0[m bytes
+ src/assets/photo2.PNG     | Bin [31m35942[m -> [32m0[m bytes
+ src/assets/photo3.PNG     | Bin [31m169416[m -> [32m0[m bytes
+ src/assets/shilajit1.png  | Bin [31m742960[m -> [32m0[m bytes
+ src/assets/shilajit2.png  | Bin [31m256326[m -> [32m0[m bytes
+ src/assets/sp-1.jpg       | Bin [31m0[m -> [32m36453[m bytes
+ src/assets/sp-2.jpg       | Bin [31m0[m -> [32m35173[m bytes
+ src/assets/sp-3.jpg       | Bin [31m0[m -> [32m233918[m bytes
+ src/assets/sp-4.jpg       | Bin [31m0[m -> [32m61496[m bytes
+ src/assets/wg-1.png       | Bin [31m0[m -> [32m1266162[m bytes
+ src/assets/wg-2.png       | Bin [31m0[m -> [32m1606081[m bytes
+ src/assets/wg-3.png       | Bin [31m0[m -> [32m1581541[m bytes
+ 18 files changed, 306 insertions(+), 7 deletions(-)
