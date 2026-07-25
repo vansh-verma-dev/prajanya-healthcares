@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+const API_URL = "https://prajanya-backend-zwcc.onrender.com";
 import { useNavigate } from "react-router-dom";
 import {
   FaMapPin,
@@ -119,10 +120,10 @@ function ProductBuy() {
 
 
    try {
-  const res = await axios.post(
-    "https://amritashya-backend.onrender.com/api/orders",
-    orderData
-  );
+const res = await axios.post(
+  `${API_URL}/api/orders`,
+  orderData
+);
 
   console.log(res.data);
 

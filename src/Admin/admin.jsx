@@ -33,7 +33,7 @@ function AdminPage() {
   const fetchOrders = async () => {
     try {
       const res = await axios.get(
-        "https://amritashya-backend.onrender.com/api/orders"
+        "https://prajanya-backend-zwcc.onrender.com/api/orders"
       );
 
       // Backend kabhi { orders: [...] } bhejta hai, kabhi seedha array — dono handle
@@ -162,8 +162,8 @@ function AdminPage() {
                   {data.paymentMethod && (
                     <span
                       className={`mt-1 inline-block rounded-md px-2 py-0.5 text-[10px] font-semibold ${data.paymentMethod === "COD"
-                          ? "bg-[#D4AF37]/15 text-[#8a6d1f]"
-                          : "bg-[#166534]/10 text-[#166534]"
+                        ? "bg-[#D4AF37]/15 text-[#8a6d1f]"
+                        : "bg-[#166534]/10 text-[#166534]"
                         }`}
                     >
                       {data.paymentMethod}
