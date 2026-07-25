@@ -1,4 +1,10 @@
-import photo1 from "../assets/photo1.PNG"
+import wg1 from "../assets/wg-1.png";
+import wg2 from "../assets/wg-2.png";
+import wg3 from "../assets/wg-3.png";
+import hair1 from "../assets/hair-1.png";
+import hair2 from "../assets/hair-2.png";
+import hair3 from "../assets/hair-3.jpg";
+
 
 export const productsData = [
   {
@@ -18,10 +24,10 @@ export const productsData = [
     sku: "AA-PCK-001",
     badge: ["Bestseller", "100% Herbal", "Doctor Recommended"],
     images: [
-       photo1,
+
       "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fpiles-care-kit%2FPiles%2520kit%25202.jpg&w=1920&q=75",
       "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fpiles-care-kit%2FPiles%2520kit%25203.jpg&w=1920&q=75",
-  
+
     ],
     shortDescription:
       "Complete Ayurvedic treatment kit designed to provide long-lasting relief from piles, fissures, constipation, and rectal discomfort without surgery.",
@@ -139,7 +145,7 @@ export const productsData = [
       ],
     },
   },
-    {
+  {
     id: 2,
     slug: "Prajanya Healthcares Pure Himalayan Shilajit",
     name: "Prajanya Healthcares Pure Himalayan Shilajit",
@@ -277,7 +283,7 @@ export const productsData = [
       ],
     },
   },
-    {
+  {
     id: 3,
     slug: "Prajanya Healthcares Dia Balance Herbal Powde  ",
     name: "Prajanya Healthcares Herbal Powde  ",
@@ -416,4 +422,297 @@ export const productsData = [
       ],
     },
   },
+  {
+    id: 4,
+    slug: "prajanya-healthcares-weight-gain ",
+    name: "Prajanya Healthcares Weight Gain  ",
+    subHeading:
+      "Weight Gain |  – Ayurvedic Formula for Healthy Weight, Strength & Energy",
+
+    brand: "Prajanya Healthcares",
+    category: "Weight Gain",
+    rating: 4.8,
+    reviews: 324,
+    sold: "5,000+",
+    price: 1999,
+    originalPrice: 2499,
+    discount: "20% OFF",
+    stock: 48,
+    sku: "PH-WG-001",
+
+    badge: ["Bestseller", "100% Herbal", "Doctor Recommended"],
+
+    images: [
+      wg1, wg2, wg3
+    ],
+
+    shortDescription:
+      "Natural Ayurvedic Weight Gain Powder to Improve Appetite, Muscle Strength & Overall Vitality.",
+
+    description:
+      "Prajanya Healthcares Weight Gain Herbal Powder is a premium Ayurvedic formulation designed to support healthy weight gain naturally. It helps improve appetite, digestion, nutrient absorption, muscle development, stamina, and overall energy without harmful chemicals or steroids.",
+
+    highlights: [
+      "100% Herbal Formula",
+      "Supports Healthy Weight Gain",
+      "Improves Appetite",
+      "Boosts Energy & Strength",
+      "Suitable For Men & Women",
+      "Made In India",
+      "GMP Certified",
+      "Free Shipping",
+    ],
+
+    benefits: [
+      "Promotes healthy weight gain",
+      "Improves appetite naturally",
+      "Enhances digestion & nutrient absorption",
+      "Supports muscle growth",
+      "Boosts energy & stamina",
+      "Improves overall body strength",
+      "Helps reduce weakness & fatigue",
+      "Supports healthy metabolism",
+    ],
+
+    suitableFor: [
+      "Underweight Adults",
+      "Men & Women",
+      "People with Low Appetite",
+      "Students",
+      "Working Professionals",
+      "People Recovering from Weakness",
+    ],
+
+    ingredients: {
+      "Herbal Blend": [
+        "Ashwagandha",
+        "Shatavari",
+        "Safed Musli",
+        "Vidarikand",
+        "Amla",
+        "Gokshura",
+        "Mulethi",
+        "Triphala",
+      ],
+    },
+
+    usage: [
+      {
+        time: "Morning",
+        instruction:
+          "Take 1 tablespoon with warm milk after breakfast.",
+      },
+      {
+        time: "Evening",
+        instruction:
+          "Take 1 tablespoon with milk after dinner or as directed by your physician.",
+      },
+    ],
+
+    duration: {
+      mild: "30 Days",
+      moderate: "60 Days",
+      chronic: "90 Days",
+    },
+
+    precautions: [
+      "Use regularly for best results.",
+      "Maintain a balanced diet.",
+      "Drink enough water daily.",
+      "Store in a cool & dry place.",
+      "Consult your physician if pregnant or breastfeeding.",
+    ],
+
+    storage:
+      "Store in a cool, dry place away from direct sunlight. Keep out of reach of children.",
+
+    shipping: {
+      delivery: "3-7 Business Days",
+      shippingCost: "Free",
+      cod: true,
+      return: "7 Days Replacement",
+    },
+
+    faq: [
+      {
+        question: "Is this product safe?",
+        answer:
+          "Yes, it is made from Ayurvedic herbal ingredients and is safe when used as directed.",
+      },
+      {
+        question: "How long does it take to see results?",
+        answer:
+          "Most users notice improvements within 4–8 weeks with proper diet and regular use.",
+      },
+      {
+        question: "Does it contain steroids?",
+        answer:
+          "No, it is completely herbal and free from steroids or harmful chemicals.",
+      },
+    ],
+
+    disclaimer:
+      "This is an Ayurvedic product. Individual results may vary depending on body type, diet, and lifestyle.",
+
+    seo: {
+      title: "Prajanya Healthcares Weight Gain Herbal Powder",
+      keywords: [
+        "Weight Gain Powder",
+        "Ayurvedic Weight Gain",
+        "Herbal Weight Gain",
+        "Healthy Weight Gain",
+        "Natural Weight Gain Supplement",
+      ],
+    },
+  },
+  {
+  id: 5,
+  slug: "prajanya-healthcares-hair-care-oil",
+  name: "Prajanya Healthcares Hair Care Oil",
+
+  subHeading:
+    "Hair Care | Ayurvedic Hair Oil – Helps Reduce Hair Fall, Promote Hair Growth & Nourish the Scalp",
+
+  brand: "Prajanya Healthcares",
+  category: "Hair Care",
+  rating: 4.7,
+  reviews: 286,
+  sold: "3,500+",
+  price: 1499,
+  originalPrice: 1999,
+  discount: "25% OFF",
+  stock: 65,
+  sku: "PH-HC-001",
+
+  badge: [
+    "Bestseller",
+    "100% Herbal",
+    "Clinically Inspired",
+  ],
+
+  images: [
+    hair1,
+    hair2,
+    hair3,
+  ],
+
+  shortDescription:
+    "Natural Ayurvedic Hair Oil for Hair Fall Control, Hair Regrowth & Stronger Roots.",
+
+  description:
+    "Prajanya Healthcares Hair Care Oil is an Ayurvedic blend of traditional herbs that nourishes the scalp, strengthens hair roots, reduces hair fall, supports healthy hair growth, and helps improve overall hair texture naturally.",
+
+  highlights: [
+    "100% Herbal Formula",
+    "Reduces Hair Fall",
+    "Promotes Hair Growth",
+    "Strengthens Hair Roots",
+    "Suitable For Men & Women",
+    "Made In India",
+    "No Harmful Chemicals",
+    "Free Shipping",
+  ],
+
+  benefits: [
+    "Helps reduce hair fall",
+    "Promotes healthy hair growth",
+    "Strengthens weak hair roots",
+    "Nourishes the scalp",
+    "Helps reduce dandruff",
+    "Improves hair thickness",
+    "Adds natural shine",
+    "Supports healthy scalp health",
+  ],
+
+  suitableFor: [
+    "Hair Fall",
+    "Thinning Hair",
+    "Weak Hair Roots",
+    "Dry Hair",
+    "Dandruff",
+    "Men & Women",
+  ],
+
+  ingredients: {
+    "Ayurvedic Herbal Blend": [
+      "Bhringraj",
+      "Amla",
+      "Brahmi",
+      "Neem",
+      "Hibiscus",
+      "Onion Seed Oil",
+      "Coconut Oil",
+      "Almond Oil",
+    ],
+  },
+
+  usage: [
+    {
+      time: "Night",
+      instruction:
+        "Massage the oil gently into the scalp for 5–10 minutes.",
+    },
+    {
+      time: "Morning",
+      instruction:
+        "Leave overnight or for at least 2 hours, then wash with a mild shampoo.",
+    },
+  ],
+
+  duration: {
+    mild: "30 Days",
+    moderate: "60 Days",
+    chronic: "90 Days",
+  },
+
+  precautions: [
+    "For external use only.",
+    "Avoid contact with eyes.",
+    "Store in a cool & dry place.",
+    "Do a patch test before first use.",
+    "Keep out of reach of children.",
+  ],
+
+  storage:
+    "Store in a cool and dry place away from direct sunlight.",
+
+  shipping: {
+    delivery: "3-7 Business Days",
+    shippingCost: "Free",
+    cod: true,
+    return: "7 Days Replacement",
+  },
+
+  faq: [
+    {
+      question: "Is this oil suitable for both men and women?",
+      answer:
+        "Yes, it is suitable for both men and women.",
+    },
+    {
+      question: "How often should I use it?",
+      answer:
+        "Use 3–4 times a week for the best results.",
+    },
+    {
+      question: "Does it contain harmful chemicals?",
+      answer:
+        "No, it is made with herbal Ayurvedic ingredients and contains no harmful chemicals.",
+    },
+  ],
+
+  disclaimer:
+    "This is an Ayurvedic product. Results may vary depending on individual hair type and lifestyle.",
+
+  seo: {
+    title: "Prajanya Healthcares Hair Care Oil",
+    keywords: [
+      "Hair Oil",
+      "Hair Fall Control",
+      "Hair Growth Oil",
+      "Ayurvedic Hair Oil",
+      "Natural Hair Care",
+    ],
+  },
+},
 ];
