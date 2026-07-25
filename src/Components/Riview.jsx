@@ -20,7 +20,7 @@ function Stars({ rating, size = 13 }) {
 const reviewsData = [
   {
     id: 1,
-    name: "Rahul Sharma",
+    name: "Harsh Sharma",
     rating: 5,
     date: "2 weeks ago",
     verified: true,
