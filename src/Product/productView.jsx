@@ -76,17 +76,19 @@ export default function ProductView() {
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-14">
           {/* ---------- Gallery ---------- */}
           <div>
-            <div className="aspect-square overflow-hidden rounded-2xl bg-slate-50">
+            <div className="aspect-square rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-4 shadow-lg overflow-hidden">
               {images[activeImg] && !imgFailed[activeImg] ? (
                 <img
                   src={images[activeImg]}
                   alt={product.name}
-                  onError={() => setImgFailed((f) => ({ ...f, [activeImg]: true }))}
-                  className="h-full w-full object-contain p-8 bg-white rounded-4xl"
+                  onError={() =>
+                    setImgFailed((f) => ({ ...f, [activeImg]: true }))
+                  }
+                  className="h-full w-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
                 />
               ) : (
-                <div className="flex h-full w-full items-center justify-center text-slate-300">
-                  <span className="text-sm">Image coming soon</span>
+                <div className="flex h-full w-full items-center justify-center text-slate-400">
+                  <span>Image Coming Soon</span>
                 </div>
               )}
             </div>

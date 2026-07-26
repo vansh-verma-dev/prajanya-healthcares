@@ -4,7 +4,9 @@ import wg3 from "../assets/wg-3.png";
 import hair1 from "../assets/hair-1.png";
 import hair2 from "../assets/hair-2.png";
 import hair3 from "../assets/hair-3.jpg";
-
+import hp1 from "../assets/hp1.jpeg";
+import hp2 from "../assets/hp2.jpeg";
+import hp3 from "../assets/hp3.jpeg";
 
 export const productsData = [
   {
@@ -715,4 +717,160 @@ export const productsData = [
     ],
   },
 },
+{
+  id: 6,
+  slug: "prajanya-healthcares-appetite-stimulant-syrup",
+
+  name: "Prajanya Healthcares Appetite Stimulant Syrup",
+
+  subHeading:
+    "Appetite Stimulant Syrup | Ayurvedic Formula for Better Appetite, Healthy Digestion & Natural Weight Gain",
+
+  brand: "Prajanya Healthcares",
+  category: "Appetite Care",
+
+  rating: 4.9,
+  reviews: 198,
+  sold: "2,500+",
+
+  price: 999,
+  originalPrice: 1499,
+  discount: "33% OFF",
+
+  stock: 120,
+  sku: "PH-AS-001",
+
+  badge: [
+    "Bestseller",
+    "100% Herbal",
+    "Doctor Recommended",
+  ],
+
+  images: [
+    hp1,
+    hp2,
+    hp3,
+  ],
+
+  shortDescription:
+    "Ayurvedic Appetite Stimulant Syrup that helps improve appetite, digestion, energy, and supports healthy weight gain.",
+
+  description:
+    "Prajanya Healthcares Appetite Stimulant Syrup is an Ayurvedic herbal formulation designed to naturally improve appetite, support healthy digestion, enhance nutrient absorption, and promote healthy weight gain. Regular use helps increase energy, strength, and overall wellness without harmful chemicals.",
+
+  highlights: [
+    "100% Ayurvedic Formula",
+    "Improves Appetite Naturally",
+    "Supports Healthy Digestion",
+    "Promotes Healthy Weight Gain",
+    "Boosts Energy & Stamina",
+    "Suitable For Men & Women",
+    "Made In India",
+    "Free Shipping",
+  ],
+
+  benefits: [
+    "Increases appetite naturally",
+    "Improves digestion",
+    "Enhances nutrient absorption",
+    "Supports healthy weight gain",
+    "Boosts immunity",
+    "Increases energy levels",
+    "Reduces weakness & fatigue",
+    "Promotes overall wellness",
+  ],
+
+  suitableFor: [
+    "Low Appetite",
+    "Underweight Adults",
+    "Poor Digestion",
+    "Weakness & Fatigue",
+    "Students",
+    "Working Professionals",
+    "Men & Women",
+  ],
+
+  ingredients: {
+    "Herbal Formula": [
+      "Ashwagandha",
+      "Shatavari",
+      "Draksha",
+      "Amla",
+      "Vidarikand",
+      "Pippali",
+      "Jeera",
+      "Ajwain",
+    ],
+  },
+
+  usage: [
+    {
+      time: "Morning",
+      instruction:
+        "Take 10–15 ml after breakfast or as directed by your physician.",
+    },
+    {
+      time: "Evening",
+      instruction:
+        "Take 10–15 ml after dinner with lukewarm water.",
+    },
+  ],
+
+  duration: {
+    mild: "30 Days",
+    moderate: "60 Days",
+    chronic: "90 Days",
+  },
+
+  precautions: [
+    "Shake well before use.",
+    "Do not exceed the recommended dosage.",
+    "Store in a cool & dry place.",
+    "Keep out of reach of children.",
+    "Consult your doctor during pregnancy or breastfeeding.",
+  ],
+
+  storage:
+    "Store in a cool and dry place away from direct sunlight.",
+
+  shipping: {
+    delivery: "3-7 Business Days",
+    shippingCost: "Free",
+    cod: true,
+    return: "7 Days Replacement",
+  },
+
+  faq: [
+    {
+      question: "Who can use this syrup?",
+      answer:
+        "It is suitable for adults experiencing low appetite, weakness, or poor digestion.",
+    },
+    {
+      question: "How long should I use it?",
+      answer:
+        "For best results, use regularly for at least 30–60 days or as advised by your physician.",
+    },
+    {
+      question: "Does it contain steroids?",
+      answer:
+        "No. It is prepared using Ayurvedic herbal ingredients and contains no steroids.",
+    },
+  ],
+
+  disclaimer:
+    "This is an Ayurvedic product. Individual results may vary depending on body type, diet, and lifestyle.",
+
+  seo: {
+    title: "Prajanya Healthcares Appetite Stimulant Syrup",
+    keywords: [
+      "Appetite Stimulant",
+      "Ayurvedic Syrup",
+      "Weight Gain Syrup",
+      "Healthy Digestion",
+      "Herbal Appetite Booster",
+      "Natural Weight Gain",
+    ],
+  },
+}
 ];
