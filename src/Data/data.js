@@ -1,12 +1,3 @@
-import wg1 from "../assets/wg-1.png";
-import wg2 from "../assets/wg-2.png";
-import wg3 from "../assets/wg-3.png";
-import hair1 from "../assets/hair-1.png";
-import hair2 from "../assets/hair-2.png";
-import hair3 from "../assets/hair-3.jpg";
-import hp1 from "../assets/hp1.jpeg";
-import hp2 from "../assets/hp2.jpeg";
-import hp3 from "../assets/hp3.jpeg";
 import HerbalPowde1 from "../assets/Herbal-Powde1.png";
 import HerbalPowde3 from "../assets/HerbalPowde3.png";
 import pc1 from "../assets/pc1.png";
@@ -750,7 +741,9 @@ export const productsData = [
     ],
 
     images: [
-      "https://i.pinimg.com/736x/1b/79/22/1b7922f5a3ee3404678e673c36fffa87.jpg"
+      "https://i.pinimg.com/736x/1b/79/22/1b7922f5a3ee3404678e673c36fffa87.jpg",
+      "https://i.pinimg.com/736x/ec/b5/b0/ecb5b027f7e6338d6f89119468f7d055.jpg",
+      "https://i.pinimg.com/736x/e4/86/20/e48620ee2f25f41ef35c6e23bf55441d.jpg"
     ],
 
     shortDescription:
