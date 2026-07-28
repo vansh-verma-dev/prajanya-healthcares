@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import myLogo from "../assets/PLogo.png";
 import { FaRegUser } from "react-icons/fa6";
@@ -13,6 +13,21 @@ import { MdDashboard } from "react-icons/md";
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [legalOpenMobile, setLegalOpenMobile] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
+
+ 
+  useEffect(() => {
+    const checkAdmin = () => {
+      const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+      setIsAdmin(currentUser?.role === "admin");
+    };
+
+    checkAdmin();  
+
+ 
+    window.addEventListener("storage", checkAdmin);
+    return () => window.removeEventListener("storage", checkAdmin);
+  }, []);
 
   const navLinks = [
     { name: "Home", path: "/" },
@@ -85,14 +100,16 @@ function Navbar() {
               <FaRegUser />
             </button>
           </Link>
-
-          <Link
-            to={"/AdminOrders"}
-          >
-            <button className="w-11 h-11 rounded-full bg-green-50 hover:bg-green-700 hover:text-white transition flex items-center justify-center text-xl">
-              <MdDashboard />
-            </button>
-          </Link>
+ 
+          {isAdmin && (
+            <Link
+              to={"/AdminOrders"}
+            >
+              <button className="w-11 h-11 rounded-full bg-green-50 hover:bg-green-700 hover:text-white transition flex items-center justify-center text-xl">
+                <MdDashboard />
+              </button>
+            </Link>
+          )}
 
           <Link
             to={"/MyCart"}
@@ -208,11 +225,14 @@ function Navbar() {
               </button>
             </Link>
 
-            <Link to={"/AdminOrders"}>
-              <button className="w-11 h-11 rounded-full bg-green-100 flex justify-center items-center">
-                <MdDashboard />
-              </button>
-            </Link>
+            {/* 👇 Sirf admin ko dikhega */}
+            {isAdmin && (
+              <Link to={"/AdminOrders"}>
+                <button className="w-11 h-11 rounded-full bg-green-100 flex justify-center items-center">
+                  <MdDashboard />
+                </button>
+              </Link>
+            )}
 
           </div>
 

@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import myLogo from "../assets/PLogo.png";
 import { useState } from "react";
 
+ 
+const ADMIN_EMAIL = "prajnaya@gmail.com";
+const ADMIN_PASSWORD = "prajnaya321p";
+
 function Signin({ setPage }) {
     const [formData, setFormData] = useState({
         email: "",
@@ -27,10 +31,30 @@ function Signin({ setPage }) {
             return;
         }
 
-        // localStorage se saare registered users nikaalo
+        
+        if (
+            formData.email.toLowerCase() === ADMIN_EMAIL.toLowerCase() &&
+            formData.password === ADMIN_PASSWORD
+        ) {
+            const adminUser = {
+                name: "Admin",
+                email: ADMIN_EMAIL,
+                role: "admin",
+            };
+
+            localStorage.setItem("currentUser", JSON.stringify(adminUser));
+
+            setMessage({ type: "success", text: "Admin login successful! Redirecting..." });
+
+            setTimeout(() => {
+                setPage("home"); 
+            }, 800);
+            return;
+        }
+ 
         const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-        // Email match karo (case-insensitive)
+     
         const matchedUser = existingUsers.find(
             (u) => u.email.toLowerCase() === formData.email.toLowerCase()
         );
@@ -45,12 +69,12 @@ function Signin({ setPage }) {
             return;
         }
 
-        // Login successful — current user ko localStorage me save karo
+ 
         localStorage.setItem("currentUser", JSON.stringify(matchedUser));
 
         setMessage({ type: "success", text: "Login successful! Redirecting..." });
 
-        // Thoda delay dekar home page pe bhejo (taaki success msg dikh jaye)
+       
         setTimeout(() => {
             setPage("home");
         }, 800);
@@ -81,8 +105,7 @@ function Signin({ setPage }) {
                             Please enter your details to sign in to your account.
                         </p>
                     </div>
-
-                    {/* Inline Message Banner (alert() ki jagah) */}
+ 
                     {message.text && (
                         <div
                             className={`mb-4 flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-medium border ${
