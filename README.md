@@ -1,16 +1,70 @@
-# React + Vite
+# 🌿 Healthcare E-Commerce Website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+** LINK: ** https://prajanya-healthcares.onrender.com
 
-Currently, two official plugins are available:
+A modern and responsive healthcare e-commerce web application built using **React.js**, **Tailwind CSS**, **Node.js**, **Express.js**, and **MongoDB**. This personal project focuses on delivering a clean shopping experience through responsive design, reusable components, secure authentication, and an intuitive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##   About The Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is a personal frontend project developed to strengthen my React.js skills by building a real-world healthcare e-commerce application.
 
-## Expanding the Oxlint configuration
+The project demonstrates responsive layouts, modern UI design, reusable React components, routing, authentication flow, and dashboard implementation while following clean coding practices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## ✨ Features
+
+* Responsive Landing Page
+* Modern Hero Section
+* Product Listing & Product Details
+* About Page
+* Contact Page
+* User Authentication (Login & Signup)
+* Protected Admin Dashboard
+* Product Management (CRUD Operations)
+* Backend Development with **Node.js** & **Express.js**
+* Database Management using **MongoDB**
+* Secure Data Storage & Retrieval
+* Responsive Design for Mobile & Desktop
+* Reusable React Components
+* Clean & Scalable Project Structure
+
+---
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- React Router DOM
+- React Icons
+- Vite
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Tools
+- Git
+- GitHub
+- Visual Studio Code
+- Postman
+
+
+## 👨‍💻 Author
+
+**Vansh Verma**
+
+Frontend Developer | React.js Enthusiast
+
+I enjoy building modern, responsive, and user-friendly web applications while continuously learning new technologies in the MERN stack.
+
+---
+
+## 📄 License
+
+This project is created for learning, portfolio, and educational purposes.
