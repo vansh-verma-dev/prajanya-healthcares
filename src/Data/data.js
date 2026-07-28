@@ -166,10 +166,9 @@ export const productsData = [
     sku: "AA-PCK-001",
     badge: ["Bestseller", "100% Herbal", "Doctor Recommended"],
     images: [
-      "https://i.pinimg.com/736x/56/42/c9/5642c9357894ea0467e6f8a6c42cfca2.jpg",
-      "https://i.pinimg.com/736x/b1/a5/d6/b1a5d68be6c3f84cb05fd9ab5646635b.jpg",
-      "https://i.pinimg.com/1200x/38/66/3e/38663ebf4ef829b9688082a5bc6928c1.jpg",
-      "https://i.pinimg.com/736x/d9/7a/a2/d97aa2d4ab66db1cb958f5364ed8c560.jpg",
+      "https://i.pinimg.com/736x/bb/e1/d8/bbe1d82d4bf3e71f0d1493bf3b740176.jpg",
+      "https://i.pinimg.com/736x/58/58/f2/5858f28f5c687cbb83661f9586ebdbcd.jpg",
+      "https://i.pinimg.com/736x/5f/14/50/5f1450a2c788a4603583da1015838793.jpg"
     ],
     shortDescription:
       "The Ultimate Natural Source of Energy, Strength & Vitality",
@@ -447,7 +446,9 @@ export const productsData = [
     badge: ["Bestseller", "100% Herbal", "Doctor Recommended"],
 
     images: [
-      wg1, wg2, wg3
+      "https://i.pinimg.com/736x/49/f1/ac/49f1ac2f7cc9d3636811c6a3e6d4b5aa.jpg",
+      "https://i.pinimg.com/736x/94/1c/01/941c01540fcc763c5c132cbec1243d2f.jpg",
+      "https://i.pinimg.com/736x/fa/d7/bc/fad7bc6da4bbbb1e254b732ec9f4b6ef.jpg"
     ],
 
     shortDescription:
@@ -595,9 +596,9 @@ export const productsData = [
     ],
 
     images: [
-      hair1,
-      hair2,
-      hair3,
+      "https://i.pinimg.com/736x/d6/77/61/d67761d8eea4ff7005ae56daee954d0e.jpg",
+      "https://i.pinimg.com/736x/c0/70/b7/c070b7168a8fae4a7f7c66e94d0b03c9.jpg",
+      "https://i.pinimg.com/736x/49/4c/46/494c461ebc9c1eb0f9e41dc13ed776b8.jpg"
     ],
 
     shortDescription:
@@ -749,9 +750,7 @@ export const productsData = [
     ],
 
     images: [
-      hp1,
-      hp2,
-      hp3,
+      "https://i.pinimg.com/736x/1b/79/22/1b7922f5a3ee3404678e673c36fffa87.jpg"
     ],
 
     shortDescription:
