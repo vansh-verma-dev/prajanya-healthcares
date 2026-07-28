@@ -171,7 +171,7 @@ const res = await axios.post(
         </h1>
 
         <p className="mt-3 max-w-sm text-sm text-slate-500">
-          Thank you for choosing Amritasya Ayurveda. Your order for{" "}
+          Thank you for choosing  Prajanya Healthcares. Your order for{" "}
           <span className="font-medium text-[#0F172A]">
             {placedItemCount} {placedItemCount > 1 ? "items" : "item"}
           </span>{" "}

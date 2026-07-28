@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { IoMdMailUnread } from "react-icons/io";
 
- 
+
 
 const quickLinks = ["Home", "Product", "Treatments", "Riview", "Contact"];
 
@@ -23,7 +23,7 @@ const treatments = [
 export default function Footer() {
   return (
     <footer className="relative bg-emerald-950 text-stone-300 overflow-hidden">
-      
+
       <svg
         className="pointer-events-none absolute -right-16 -top-10 h-72 w-72 text-emerald-900/40 sm:h-96 sm:w-96"
         viewBox="0 0 200 200"
@@ -42,7 +42,7 @@ export default function Footer() {
         <path d="M100 100C122 112 138 128 145 145" stroke="currentColor" strokeWidth="1" />
       </svg>
 
-     
+
       <div className="relative flex items-center justify-center border-b border-emerald-800/70 py-3">
         <span className="h-px w-16 bg-amber-500/50 sm:w-24" />
         <svg viewBox="0 0 24 24" className="mx-3 h-4 w-4 text-amber-400" fill="currentColor">
@@ -137,7 +137,7 @@ export default function Footer() {
               <li className="flex gap-3">
                 <FaMapPin className="mt-1 shrink-0 text-amber-400" size={14} />
                 <span>
-                    Address - 581, CHAMRAWAL Road, Baghpat Uttar Pradesh
+                  Address - 581, CHAMRAWAL Road, Baghpat Uttar Pradesh
                   <br />
                   PIN Code:  250615
                 </span>
@@ -164,7 +164,8 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-14 flex flex-col items-center gap-4 border-t border-emerald-800/70 pt-6 text-xs text-stone-500 sm:flex-row sm:justify-between">
-          <p>© {new Date().getFullYear()} Amritasya Ayurveda. All rights reserved.</p>
+          <p>© {new Date().getFullYear()}  Prajanya
+            Healthcares All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-amber-400">
               Privacy Policy
