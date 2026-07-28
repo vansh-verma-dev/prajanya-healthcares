@@ -7,6 +7,10 @@ import hair3 from "../assets/hair-3.jpg";
 import hp1 from "../assets/hp1.jpeg";
 import hp2 from "../assets/hp2.jpeg";
 import hp3 from "../assets/hp3.jpeg";
+import HerbalPowde1 from "../assets/Herbal-Powde1.png";
+import HerbalPowde3 from "../assets/HerbalPowde3.png";
+import pc1 from "../assets/pc1.png";
+import pc2 from "../assets/pc2.png";
 
 export const productsData = [
   {
@@ -26,10 +30,8 @@ export const productsData = [
     sku: "AA-PCK-001",
     badge: ["Bestseller", "100% Herbal", "Doctor Recommended"],
     images: [
-
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fpiles-care-kit%2FPiles%2520kit%25202.jpg&w=1920&q=75",
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fpiles-care-kit%2FPiles%2520kit%25203.jpg&w=1920&q=75",
-
+      pc1,
+      pc2
     ],
     shortDescription:
       "Complete Ayurvedic treatment kit designed to provide long-lasting relief from piles, fissures, constipation, and rectal discomfort without surgery.",
@@ -164,10 +166,10 @@ export const productsData = [
     sku: "AA-PCK-001",
     badge: ["Bestseller", "100% Herbal", "Doctor Recommended"],
     images: [
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fshilajit%2FResin%2520Amritashya%2520Ayurveda%25201.jpg&w=1920&q=75",
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fshilajit%2FResin%2520Amiritashya%2520Ayurveda%25202.jpg&w=1920&q=75",
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fshilajit%2FResin%2520Amiritashya%2520Ayurveda%25203.png&w=1920&q=75",
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2Fshilajit%2FResin%2520Amiritashya%2520Ayurveda%25204.jpg&w=1920&q=75",
+      "https://i.pinimg.com/736x/56/42/c9/5642c9357894ea0467e6f8a6c42cfca2.jpg",
+      "https://i.pinimg.com/736x/b1/a5/d6/b1a5d68be6c3f84cb05fd9ab5646635b.jpg",
+      "https://i.pinimg.com/1200x/38/66/3e/38663ebf4ef829b9688082a5bc6928c1.jpg",
+      "https://i.pinimg.com/736x/d9/7a/a2/d97aa2d4ab66db1cb958f5364ed8c560.jpg",
     ],
     shortDescription:
       "The Ultimate Natural Source of Energy, Strength & Vitality",
@@ -302,11 +304,11 @@ export const productsData = [
     sku: "AA-PCK-001",
     badge: ["Bestseller", "100% Herbal", "Doctor Recommended"],
     images: [
-      "https://gqfeipyaxweijhrlrxqt.supabase.co/storage/v1/object/public/images/81085e77-3986-4e55-8d27-fded0c5c735b/1jytly3khxw_1771949283023.jpg",
+      HerbalPowde3,
+      HerbalPowde1,
       "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2F81085e77-3986-4e55-8d27-fded0c5c735b%2Flfonhq8glh9_1771949283895.jpg&w=1920&q=75",
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2F81085e77-3986-4e55-8d27-fded0c5c735b%2Fzrsbvsez0kh_1771949284192.jpg&w=1920&q=75",
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2F81085e77-3986-4e55-8d27-fded0c5c735b%2Fdd6252s3szp_1771949284485.jpg&w=1920&q=75",
-      "https://www.amritashya.in/_next/image?url=https%3A%2F%2Fgqfeipyaxweijhrlrxqt.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fimages%2F81085e77-3986-4e55-8d27-fded0c5c735b%2Fyma02u2xbj8_1772018453622.jpg&w=1920&q=75",
+
+
     ],
     shortDescription:
       "The Ultimate Natural Source of Energy, Strength & Vitality",
@@ -568,309 +570,309 @@ export const productsData = [
     },
   },
   {
-  id: 5,
-  slug: "prajanya-healthcares-hair-care-oil",
-  name: "Prajanya Healthcares Hair Care Oil",
+    id: 5,
+    slug: "prajanya-healthcares-hair-care-oil",
+    name: "Prajanya Healthcares Hair Care Oil",
 
-  subHeading:
-    "Hair Care | Ayurvedic Hair Oil – Helps Reduce Hair Fall, Promote Hair Growth & Nourish the Scalp",
+    subHeading:
+      "Hair Care | Ayurvedic Hair Oil – Helps Reduce Hair Fall, Promote Hair Growth & Nourish the Scalp",
 
-  brand: "Prajanya Healthcares",
-  category: "Hair Care",
-  rating: 4.7,
-  reviews: 286,
-  sold: "3,500+",
-  price: 1499,
-  originalPrice: 1999,
-  discount: "25% OFF",
-  stock: 65,
-  sku: "PH-HC-001",
+    brand: "Prajanya Healthcares",
+    category: "Hair Care",
+    rating: 4.7,
+    reviews: 286,
+    sold: "3,500+",
+    price: 1499,
+    originalPrice: 1999,
+    discount: "25% OFF",
+    stock: 65,
+    sku: "PH-HC-001",
 
-  badge: [
-    "Bestseller",
-    "100% Herbal",
-    "Clinically Inspired",
-  ],
-
-  images: [
-    hair1,
-    hair2,
-    hair3,
-  ],
-
-  shortDescription:
-    "Natural Ayurvedic Hair Oil for Hair Fall Control, Hair Regrowth & Stronger Roots.",
-
-  description:
-    "Prajanya Healthcares Hair Care Oil is an Ayurvedic blend of traditional herbs that nourishes the scalp, strengthens hair roots, reduces hair fall, supports healthy hair growth, and helps improve overall hair texture naturally.",
-
-  highlights: [
-    "100% Herbal Formula",
-    "Reduces Hair Fall",
-    "Promotes Hair Growth",
-    "Strengthens Hair Roots",
-    "Suitable For Men & Women",
-    "Made In India",
-    "No Harmful Chemicals",
-    "Free Shipping",
-  ],
-
-  benefits: [
-    "Helps reduce hair fall",
-    "Promotes healthy hair growth",
-    "Strengthens weak hair roots",
-    "Nourishes the scalp",
-    "Helps reduce dandruff",
-    "Improves hair thickness",
-    "Adds natural shine",
-    "Supports healthy scalp health",
-  ],
-
-  suitableFor: [
-    "Hair Fall",
-    "Thinning Hair",
-    "Weak Hair Roots",
-    "Dry Hair",
-    "Dandruff",
-    "Men & Women",
-  ],
-
-  ingredients: {
-    "Ayurvedic Herbal Blend": [
-      "Bhringraj",
-      "Amla",
-      "Brahmi",
-      "Neem",
-      "Hibiscus",
-      "Onion Seed Oil",
-      "Coconut Oil",
-      "Almond Oil",
+    badge: [
+      "Bestseller",
+      "100% Herbal",
+      "Clinically Inspired",
     ],
-  },
 
-  usage: [
-    {
-      time: "Night",
-      instruction:
-        "Massage the oil gently into the scalp for 5–10 minutes.",
-    },
-    {
-      time: "Morning",
-      instruction:
-        "Leave overnight or for at least 2 hours, then wash with a mild shampoo.",
-    },
-  ],
-
-  duration: {
-    mild: "30 Days",
-    moderate: "60 Days",
-    chronic: "90 Days",
-  },
-
-  precautions: [
-    "For external use only.",
-    "Avoid contact with eyes.",
-    "Store in a cool & dry place.",
-    "Do a patch test before first use.",
-    "Keep out of reach of children.",
-  ],
-
-  storage:
-    "Store in a cool and dry place away from direct sunlight.",
-
-  shipping: {
-    delivery: "3-7 Business Days",
-    shippingCost: "Free",
-    cod: true,
-    return: "7 Days Replacement",
-  },
-
-  faq: [
-    {
-      question: "Is this oil suitable for both men and women?",
-      answer:
-        "Yes, it is suitable for both men and women.",
-    },
-    {
-      question: "How often should I use it?",
-      answer:
-        "Use 3–4 times a week for the best results.",
-    },
-    {
-      question: "Does it contain harmful chemicals?",
-      answer:
-        "No, it is made with herbal Ayurvedic ingredients and contains no harmful chemicals.",
-    },
-  ],
-
-  disclaimer:
-    "This is an Ayurvedic product. Results may vary depending on individual hair type and lifestyle.",
-
-  seo: {
-    title: "Prajanya Healthcares Hair Care Oil",
-    keywords: [
-      "Hair Oil",
-      "Hair Fall Control",
-      "Hair Growth Oil",
-      "Ayurvedic Hair Oil",
-      "Natural Hair Care",
+    images: [
+      hair1,
+      hair2,
+      hair3,
     ],
-  },
-},
-{
-  id: 6,
-  slug: "prajanya-healthcares-appetite-stimulant-syrup",
 
-  name: "Prajanya Healthcares Appetite Stimulant Syrup",
+    shortDescription:
+      "Natural Ayurvedic Hair Oil for Hair Fall Control, Hair Regrowth & Stronger Roots.",
 
-  subHeading:
-    "Appetite Stimulant Syrup | Ayurvedic Formula for Better Appetite, Healthy Digestion & Natural Weight Gain",
+    description:
+      "Prajanya Healthcares Hair Care Oil is an Ayurvedic blend of traditional herbs that nourishes the scalp, strengthens hair roots, reduces hair fall, supports healthy hair growth, and helps improve overall hair texture naturally.",
 
-  brand: "Prajanya Healthcares",
-  category: "Appetite Care",
-
-  rating: 4.9,
-  reviews: 198,
-  sold: "2,500+",
-
-  price: 999,
-  originalPrice: 1499,
-  discount: "33% OFF",
-
-  stock: 120,
-  sku: "PH-AS-001",
-
-  badge: [
-    "Bestseller",
-    "100% Herbal",
-    "Doctor Recommended",
-  ],
-
-  images: [
-    hp1,
-    hp2,
-    hp3,
-  ],
-
-  shortDescription:
-    "Ayurvedic Appetite Stimulant Syrup that helps improve appetite, digestion, energy, and supports healthy weight gain.",
-
-  description:
-    "Prajanya Healthcares Appetite Stimulant Syrup is an Ayurvedic herbal formulation designed to naturally improve appetite, support healthy digestion, enhance nutrient absorption, and promote healthy weight gain. Regular use helps increase energy, strength, and overall wellness without harmful chemicals.",
-
-  highlights: [
-    "100% Ayurvedic Formula",
-    "Improves Appetite Naturally",
-    "Supports Healthy Digestion",
-    "Promotes Healthy Weight Gain",
-    "Boosts Energy & Stamina",
-    "Suitable For Men & Women",
-    "Made In India",
-    "Free Shipping",
-  ],
-
-  benefits: [
-    "Increases appetite naturally",
-    "Improves digestion",
-    "Enhances nutrient absorption",
-    "Supports healthy weight gain",
-    "Boosts immunity",
-    "Increases energy levels",
-    "Reduces weakness & fatigue",
-    "Promotes overall wellness",
-  ],
-
-  suitableFor: [
-    "Low Appetite",
-    "Underweight Adults",
-    "Poor Digestion",
-    "Weakness & Fatigue",
-    "Students",
-    "Working Professionals",
-    "Men & Women",
-  ],
-
-  ingredients: {
-    "Herbal Formula": [
-      "Ashwagandha",
-      "Shatavari",
-      "Draksha",
-      "Amla",
-      "Vidarikand",
-      "Pippali",
-      "Jeera",
-      "Ajwain",
+    highlights: [
+      "100% Herbal Formula",
+      "Reduces Hair Fall",
+      "Promotes Hair Growth",
+      "Strengthens Hair Roots",
+      "Suitable For Men & Women",
+      "Made In India",
+      "No Harmful Chemicals",
+      "Free Shipping",
     ],
-  },
 
-  usage: [
-    {
-      time: "Morning",
-      instruction:
-        "Take 10–15 ml after breakfast or as directed by your physician.",
-    },
-    {
-      time: "Evening",
-      instruction:
-        "Take 10–15 ml after dinner with lukewarm water.",
-    },
-  ],
-
-  duration: {
-    mild: "30 Days",
-    moderate: "60 Days",
-    chronic: "90 Days",
-  },
-
-  precautions: [
-    "Shake well before use.",
-    "Do not exceed the recommended dosage.",
-    "Store in a cool & dry place.",
-    "Keep out of reach of children.",
-    "Consult your doctor during pregnancy or breastfeeding.",
-  ],
-
-  storage:
-    "Store in a cool and dry place away from direct sunlight.",
-
-  shipping: {
-    delivery: "3-7 Business Days",
-    shippingCost: "Free",
-    cod: true,
-    return: "7 Days Replacement",
-  },
-
-  faq: [
-    {
-      question: "Who can use this syrup?",
-      answer:
-        "It is suitable for adults experiencing low appetite, weakness, or poor digestion.",
-    },
-    {
-      question: "How long should I use it?",
-      answer:
-        "For best results, use regularly for at least 30–60 days or as advised by your physician.",
-    },
-    {
-      question: "Does it contain steroids?",
-      answer:
-        "No. It is prepared using Ayurvedic herbal ingredients and contains no steroids.",
-    },
-  ],
-
-  disclaimer:
-    "This is an Ayurvedic product. Individual results may vary depending on body type, diet, and lifestyle.",
-
-  seo: {
-    title: "Prajanya Healthcares Appetite Stimulant Syrup",
-    keywords: [
-      "Appetite Stimulant",
-      "Ayurvedic Syrup",
-      "Weight Gain Syrup",
-      "Healthy Digestion",
-      "Herbal Appetite Booster",
-      "Natural Weight Gain",
+    benefits: [
+      "Helps reduce hair fall",
+      "Promotes healthy hair growth",
+      "Strengthens weak hair roots",
+      "Nourishes the scalp",
+      "Helps reduce dandruff",
+      "Improves hair thickness",
+      "Adds natural shine",
+      "Supports healthy scalp health",
     ],
+
+    suitableFor: [
+      "Hair Fall",
+      "Thinning Hair",
+      "Weak Hair Roots",
+      "Dry Hair",
+      "Dandruff",
+      "Men & Women",
+    ],
+
+    ingredients: {
+      "Ayurvedic Herbal Blend": [
+        "Bhringraj",
+        "Amla",
+        "Brahmi",
+        "Neem",
+        "Hibiscus",
+        "Onion Seed Oil",
+        "Coconut Oil",
+        "Almond Oil",
+      ],
+    },
+
+    usage: [
+      {
+        time: "Night",
+        instruction:
+          "Massage the oil gently into the scalp for 5–10 minutes.",
+      },
+      {
+        time: "Morning",
+        instruction:
+          "Leave overnight or for at least 2 hours, then wash with a mild shampoo.",
+      },
+    ],
+
+    duration: {
+      mild: "30 Days",
+      moderate: "60 Days",
+      chronic: "90 Days",
+    },
+
+    precautions: [
+      "For external use only.",
+      "Avoid contact with eyes.",
+      "Store in a cool & dry place.",
+      "Do a patch test before first use.",
+      "Keep out of reach of children.",
+    ],
+
+    storage:
+      "Store in a cool and dry place away from direct sunlight.",
+
+    shipping: {
+      delivery: "3-7 Business Days",
+      shippingCost: "Free",
+      cod: true,
+      return: "7 Days Replacement",
+    },
+
+    faq: [
+      {
+        question: "Is this oil suitable for both men and women?",
+        answer:
+          "Yes, it is suitable for both men and women.",
+      },
+      {
+        question: "How often should I use it?",
+        answer:
+          "Use 3–4 times a week for the best results.",
+      },
+      {
+        question: "Does it contain harmful chemicals?",
+        answer:
+          "No, it is made with herbal Ayurvedic ingredients and contains no harmful chemicals.",
+      },
+    ],
+
+    disclaimer:
+      "This is an Ayurvedic product. Results may vary depending on individual hair type and lifestyle.",
+
+    seo: {
+      title: "Prajanya Healthcares Hair Care Oil",
+      keywords: [
+        "Hair Oil",
+        "Hair Fall Control",
+        "Hair Growth Oil",
+        "Ayurvedic Hair Oil",
+        "Natural Hair Care",
+      ],
+    },
   },
-}
+  {
+    id: 6,
+    slug: "prajanya-healthcares-appetite-stimulant-syrup",
+
+    name: "Prajanya Healthcares Appetite Stimulant Syrup",
+
+    subHeading:
+      "Appetite Stimulant Syrup | Ayurvedic Formula for Better Appetite, Healthy Digestion & Natural Weight Gain",
+
+    brand: "Prajanya Healthcares",
+    category: "Appetite Care",
+
+    rating: 4.9,
+    reviews: 198,
+    sold: "2,500+",
+
+    price: 999,
+    originalPrice: 1499,
+    discount: "33% OFF",
+
+    stock: 120,
+    sku: "PH-AS-001",
+
+    badge: [
+      "Bestseller",
+      "100% Herbal",
+      "Doctor Recommended",
+    ],
+
+    images: [
+      hp1,
+      hp2,
+      hp3,
+    ],
+
+    shortDescription:
+      "Ayurvedic Appetite Stimulant Syrup that helps improve appetite, digestion, energy, and supports healthy weight gain.",
+
+    description:
+      "Prajanya Healthcares Appetite Stimulant Syrup is an Ayurvedic herbal formulation designed to naturally improve appetite, support healthy digestion, enhance nutrient absorption, and promote healthy weight gain. Regular use helps increase energy, strength, and overall wellness without harmful chemicals.",
+
+    highlights: [
+      "100% Ayurvedic Formula",
+      "Improves Appetite Naturally",
+      "Supports Healthy Digestion",
+      "Promotes Healthy Weight Gain",
+      "Boosts Energy & Stamina",
+      "Suitable For Men & Women",
+      "Made In India",
+      "Free Shipping",
+    ],
+
+    benefits: [
+      "Increases appetite naturally",
+      "Improves digestion",
+      "Enhances nutrient absorption",
+      "Supports healthy weight gain",
+      "Boosts immunity",
+      "Increases energy levels",
+      "Reduces weakness & fatigue",
+      "Promotes overall wellness",
+    ],
+
+    suitableFor: [
+      "Low Appetite",
+      "Underweight Adults",
+      "Poor Digestion",
+      "Weakness & Fatigue",
+      "Students",
+      "Working Professionals",
+      "Men & Women",
+    ],
+
+    ingredients: {
+      "Herbal Formula": [
+        "Ashwagandha",
+        "Shatavari",
+        "Draksha",
+        "Amla",
+        "Vidarikand",
+        "Pippali",
+        "Jeera",
+        "Ajwain",
+      ],
+    },
+
+    usage: [
+      {
+        time: "Morning",
+        instruction:
+          "Take 10–15 ml after breakfast or as directed by your physician.",
+      },
+      {
+        time: "Evening",
+        instruction:
+          "Take 10–15 ml after dinner with lukewarm water.",
+      },
+    ],
+
+    duration: {
+      mild: "30 Days",
+      moderate: "60 Days",
+      chronic: "90 Days",
+    },
+
+    precautions: [
+      "Shake well before use.",
+      "Do not exceed the recommended dosage.",
+      "Store in a cool & dry place.",
+      "Keep out of reach of children.",
+      "Consult your doctor during pregnancy or breastfeeding.",
+    ],
+
+    storage:
+      "Store in a cool and dry place away from direct sunlight.",
+
+    shipping: {
+      delivery: "3-7 Business Days",
+      shippingCost: "Free",
+      cod: true,
+      return: "7 Days Replacement",
+    },
+
+    faq: [
+      {
+        question: "Who can use this syrup?",
+        answer:
+          "It is suitable for adults experiencing low appetite, weakness, or poor digestion.",
+      },
+      {
+        question: "How long should I use it?",
+        answer:
+          "For best results, use regularly for at least 30–60 days or as advised by your physician.",
+      },
+      {
+        question: "Does it contain steroids?",
+        answer:
+          "No. It is prepared using Ayurvedic herbal ingredients and contains no steroids.",
+      },
+    ],
+
+    disclaimer:
+      "This is an Ayurvedic product. Individual results may vary depending on body type, diet, and lifestyle.",
+
+    seo: {
+      title: "Prajanya Healthcares Appetite Stimulant Syrup",
+      keywords: [
+        "Appetite Stimulant",
+        "Ayurvedic Syrup",
+        "Weight Gain Syrup",
+        "Healthy Digestion",
+        "Herbal Appetite Booster",
+        "Natural Weight Gain",
+      ],
+    },
+  }
 ];
